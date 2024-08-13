@@ -1,5 +1,8 @@
 # Ignore build directories
 build/
+
+nltk/
+
 # Ignore Qt project files
 *.pro.user
 *.pro.user.*
@@ -22,4 +25,9 @@ qrc_*.cpp
 # Ignore Windows system files
 Thumbs.db
 desktop.ini
-nltk/
+
+*.pyc
+__pycache__/
+.DS_Store
+tmp.json
+*.log
